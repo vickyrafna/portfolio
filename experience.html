@@ -1,0 +1,129 @@
+<!Doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0"/>
+        <title></title>
+        <style>
+            a{
+            
+            margin-left: 20px;
+            margin-right: auto
+      }
+      .container{
+       display: flex;
+      }
+      .header {
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 20px 10px;
+
+   }
+   .header-right{
+       float: right;
+
+      
+
+ animation-name: example;
+ animation-duration: 4s;
+      
+   }
+   .logo{
+       text-decoration: none;
+       width: 100px;
+ height: 100px;
+ background-color: red;
+ animation-name: example;
+ animation-duration: 20s;
+
+   }
+      .active{
+       text-decoration: none;
+      } 
+      @keyframes example {
+               0%   {background-color: red;}
+           25%  {background-color: yellow;}
+           50%  {background-color: blue;}
+           100% {background-color: green;}
+       }
+       p{
+           text-align: center;
+           margin-top: 250px;
+           font-weight: 900;
+           font-style: oblique;
+       }
+       .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    text-align: center; 
+}
+@media (min-width: 768px) {
+     
+    }
+    .button{
+        border-radius: 50px;
+    }
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <a href="#default" class="logo">Victorine Bekotto</a>
+            <div class="header-right">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+              <a class="active" href="#home">About me</a>
+              <a href="what.html">What I Do</a>
+              <a href="experience.html">My experience</a>
+              <a href="Get In.html">Get in Touch</a>
+            </div>
+          </div>
+          <div class="flex-container">
+
+            <div class="flex-child magenta">
+                <img src="https://www.nicepng.com/png/detail/211-2112128_the-nmsdc-in-good-standing-girl-standing-transparent.png" class="img-fluid rounded-start" alt="..."
+                />
+
+            </div>
+              
+                
+               
+                <div class="button">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+                    <button type="button" class="btn btn-primary">More About Me</button>
+
+               
+
+                </div>
+                <div class="flex-child green">
+                    <h1>
+                        Expert In Making<br> GreatDesign App And <br>front-End-Developper
+                    </h1>
+                    <h2>
+                        Web App, Mobile App Template
+                    </h2>
+                    <p>
+                        Most importantly, make sure that what you're sharing <br>on social media is supported by accurate data and research.
+                    </p>
+                    
+                  
+                </div>
+            </div>
+        
+        
+    </body>
+    </html>
